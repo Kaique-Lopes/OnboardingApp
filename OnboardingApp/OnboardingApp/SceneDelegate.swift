@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         // MARK: - Configuracao de inicializacao de tela viewCode
         window = UIWindow(windowScene: scene)
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = UINavigationController(rootViewController: LoginViewController())
         window?.makeKeyAndVisible()
     }
 
